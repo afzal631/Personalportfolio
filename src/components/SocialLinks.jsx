@@ -7,7 +7,7 @@ export default function SocialLinks() {
   const links = [
     {
       id: 1,
-      visit: "https://github.com/",
+      visit: "https://github.com/afzal631/",
       child: (
         <>
           Github <FaGithub size={30} />
@@ -17,7 +17,7 @@ export default function SocialLinks() {
     },
     {
       id: 2,
-      visit: "https://linkedin.com/",
+      visit: "https://linkedin.com/in/mohammed-afzal/",
       child: (
         <>
           LinkedIn <FaLinkedin size={30} />

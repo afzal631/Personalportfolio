@@ -9,18 +9,18 @@ export default function Home() {
   return (
     <div
       name="home"
-      className="h-full pt-16 md:h-screen w-full bg-gradient-to-b from-black via-black to-gray-800 "
+      className="h-full pt-40 md:pt-16 md:h-screen w-full bg-gradient-to-b from-black via-black to-gray-800 "
     >
-      <div className="max-w-screen-lg mx-auto flex flex-col-reverse md:flex-row items-center justify-center h-full px-4  gap-6">
+      <div className="max-w-screen-lg mx-auto flex flex-col-reverse md:flex-row items-center justify-center h-full px-6 md:px-4  gap-6">
         <div className="text-white">
           <h2 className="text-3xl sm:text-2xl font-bold">
             I'm a Full Stack Developer
           </h2>
           <p className="text-gray-500">
-            I have 2 years of experience building and desigining software.
-            <br />
-            Currently, I am working on web applications using <br />
-            technologies like React, Readux, Node JS, Express JS and MongoDB.
+            As a Full Stack Developer with 2 years of experience,<br/> I specialize
+            in building and designing software solutions.<br/> My focus lies in web
+            application development using a range of technologies such as <br/> React,
+            Redux, Node.js, Express.js, and MongoDB.
           </p>
           <div className="flex mt-4">
             <button className=" group flex gap-1 px-4 items-center border-2 cursor-pointer border-white p-2 rounded-md duration-200 hover:border-black hover:bg-white hover:text-black">
@@ -30,10 +30,10 @@ export default function Home() {
               </span>
             </button>
           </div>
-          <div className="text-gray-500 justify-center py-7 text-sm font-bold flex md:hidden">
+          <div className="text-gray-500 justify-center pt-16 text-sm font-bold flex md:hidden">
             <ul className="flex justify-center items-center gap-3 cursor-pointer">
               <li className="flex items-center gap-1 hover:text-white">
-                <a className="flex items-center gap-1" href="https:google.com/">
+                <a className="flex items-center gap-1" href="https://github.com/afzal631/">
                   <FaGithub />
                   github
                 </a>
