@@ -1,6 +1,6 @@
 import React from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-import { HiOutlineMail } from "react-icons/hi";
+import { BiSolidContact } from "react-icons/bi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import resume from "../assets/resume.pdf";
 
@@ -31,7 +31,7 @@ export default function SocialLinks() {
       visit: "/",
       child: (
         <>
-          Gmail <HiOutlineMail size={30} />
+          6362983220 <BiSolidContact size={30} />
         </>
       ),
       // style: "rounded-tr-md",

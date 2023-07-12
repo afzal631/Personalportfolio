@@ -41,10 +41,10 @@ export default function About() {
                 <span className="about__subtitle">3 + Projects </span>
                 <div className="overlay"></div>
               </div>
-              <div className="about__box">
+              <div className="about__box ">
                 <i class="fa fa-headphones"></i>
-                <h3 className="about__title">Support</h3>
-                <span className="about__subtitle ">Online 24/7 </span>
+                <h3 className="about__title">Certifications</h3>
+                <span className="about__subtitle  ">6 </span>
                 <div className="overlay"></div>
               </div>
             </div>
