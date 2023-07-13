@@ -1,12 +1,23 @@
-import React from "react";
-// import { motion } from "framer-motion";
+import React, { useEffect, useState } from "react";
 import "./about.css";
 import { BiDownload } from "react-icons/bi";
 import profile from "../assets/0003.svg";
-// import profile2 from "../assets/0007.svg";
+import profile2 from "../assets/0006.svg";
 import resume from "../assets/resume.pdf";
 
 export default function About() {
+  const [isSmallScreen, setIsSmallScreen] = useState(false);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsSmallScreen(window.innerWidth <= 978);
+    };
+    window.addEventListener("resize", handleResize);
+
+    setIsSmallScreen(window.innerWidth <= 978);
+
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
   return (
     <div
       name="about"
@@ -21,8 +32,11 @@ export default function About() {
 
         <div className="about__container container grid mt-32">
           <div className="about__image border-2 flex justify-center  border-gray-300 rounded-lg  ">
-            <img src={profile} alt="" className="about__img" />
-            {/* <img src={profile2} alt="" className="about__img" /> */}
+            {isSmallScreen ? (
+              <img src={profile2} alt="memobilescreen" className="about__img" />
+            ) : (
+              <img src={profile} alt="melaptopscreen" className="about__img" />
+            )}
           </div>
 
           <div className="about__data ">
