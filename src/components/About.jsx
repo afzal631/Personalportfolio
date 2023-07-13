@@ -58,7 +58,7 @@ export default function About() {
               <div className="about__box ">
                 <i class="fa fa-headphones"></i>
                 <h3 className="about__title">Certifications</h3>
-                <span className="about__subtitle  ">6 </span>
+                <span className="about__subtitle  ">4 </span>
                 <div className="overlay"></div>
               </div>
             </div>
