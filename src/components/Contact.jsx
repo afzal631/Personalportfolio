@@ -1,7 +1,8 @@
 import React from "react";
-import { FaWalkieTalkie } from "react-icons/fa6";
+import { RiSendPlaneFill } from "react-icons/ri";
 
 export default function Contact() {
+  
   return (
     <div
       name="contact"
@@ -22,23 +23,26 @@ export default function Contact() {
               type="text"
               name="name"
               placeholder="Enter your name "
+              required
             />
             <input
               className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
-              type="emai"
+              type="email"
               name="email"
-              placeholder="Enter your emal "
+              placeholder="Enter your email "
+              required
             />
             <textarea
               className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
               rows="10"
               name="message"
               placeholder="Enter your message"
+              required
             ></textarea>
             <button className="group flex gap-1 my-8 py-3 mx-auto px-6 items-center justify-center border-2 cursor-pointer border-white p-2 rounded-md duration-200 hover:border-black hover:bg-white hover:text-black">
               Let's Talk{" "}
-              <span className="group-hover:rotate-90 duration-300 flex items-center">
-                <FaWalkieTalkie />
+              <span className="group-hover:rotate-45 duration-300 flex items-center  ">
+                <RiSendPlaneFill />
               </span>
             </button>
           </form>

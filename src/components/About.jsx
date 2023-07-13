@@ -58,7 +58,7 @@ export default function About() {
               <div className="about__box ">
                 <i class="fa fa-headphones"></i>
                 <h3 className="about__title">Certifications</h3>
-                <span className="about__subtitle  ">4 </span>
+                <span className="about__subtitle  ">5 </span>
                 <div className="overlay"></div>
               </div>
             </div>
@@ -69,13 +69,13 @@ export default function About() {
               technologies, I consistently upskill my skills. Download my resume
               below to learn more about my expertise.
             </p>
-            <div className="flex items-center justify-center sm:justify-start ">
+            <div className="group flex items-center justify-center sm:justify-start ">
               <a
                 download="resume.pdf"
                 href={resume}
-                className="mt-4 border-white border-2 rounded-md p-3 flex justify-center items-center gap-2 hover:bg-green-400 hover:text-black hover:scale-105  "
+                className="mt-4 border-white border-2 rounded-md p-3 flex justify-center items-center gap-2 hover:bg-green-400 hover:text-black   "
               >
-                Download CV <BiDownload /> <i class="fa fa-file-pdf-o"></i>
+                Download CV <BiDownload className="animate-bounce text-lg" /> <i class="fa fa-file-pdf-o"></i>
               </a>
             </div>
           </div>

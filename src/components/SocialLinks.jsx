@@ -1,6 +1,6 @@
 import React from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-import { BiSolidContact } from "react-icons/bi";
+import { MdPhoneInTalk } from "react-icons/md";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import resume from "../assets/resume.pdf";
 
@@ -31,7 +31,7 @@ export default function SocialLinks() {
       visit: "/",
       child: (
         <>
-          6362983220 <BiSolidContact size={30} />
+          6362983220 <MdPhoneInTalk size={30} />
         </>
       ),
       // style: "rounded-tr-md",
@@ -55,7 +55,7 @@ export default function SocialLinks() {
             return (
               <li
                 key={id}
-                className={`flex justify-between items-center w-40 h-14 px-4 bg-gray-500 ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-500 ${style}`}
+                className={`flex justify-between items-center w-40 h-14 px-4 bg-gray-500 ml-[-106px] hover:ml-[-10px] hover:rounded-md duration-500 ${style}`}
               >
                 <a
                   href={visit}
@@ -68,7 +68,7 @@ export default function SocialLinks() {
             );
           })}
           <li
-            className="flex justify-between items-center w-40 h-14 px-4 bg-gray-500 ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-500 rounded-br-md"
+            className="flex justify-between items-center w-40 h-14 px-4 bg-gray-500 ml-[-106px] hover:ml-[-10px] hover:rounded-md duration-500 rounded-br-md"
           >
             <a
               download="resume.pdf"

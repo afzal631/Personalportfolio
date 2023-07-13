@@ -5,6 +5,7 @@ import img1 from "../assets/cert/50368750.jpg";
 import img2 from "../assets/cert/95692372.jpg";
 import img3 from "../assets/cert/123445.jpg";
 import img4 from "../assets/cert/234567890.jpg";
+import img5 from "../assets/cert/95723080.jpg";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 export default function Example() {
@@ -25,11 +26,15 @@ export default function Example() {
       id: 4,
       src: img4,
     },
+    {
+      id: 5,
+      src: img5,
+    },
   ];
   return (
     <div
-      name="skills"
-      className="bg-gradient-to-b to-black from-gray-800 w-full h-full py-32 text-white md:h-full"
+      name="achievements"
+      className="bg-gradient-to-b to-black from-gray-800 w-full h-full  py-32 text-white md:h-full"
     >
       <div className="max-w-screen-lg p-8 mx-auto flex flex-col justify-content w-full h-full">
         <div className="pb-8">

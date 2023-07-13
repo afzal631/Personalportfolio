@@ -8,8 +8,9 @@ function NavBar() {
     { id: 1, link: "home" },
     { id: 2, link: "about" },
     { id: 3, link: "projects" },
-    { id: 4, link: "skills" },
-    { id: 5, link: "contact" },
+    { id: 4, link: "achievements" },
+    { id: 5, link: "skills" },
+    { id: 6, link: "contact" },
   ];
   return (
     <div className="flex justify-between items-center w-full h-20 px-6 text-white bg-black fixed z-[1000]">
