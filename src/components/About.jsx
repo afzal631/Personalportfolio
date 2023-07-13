@@ -13,7 +13,7 @@ export default function About() {
       className="w-full h-full md:h-screen bg-gradient-to-b from-gray-800 to-black text-white"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
-        <div >
+        <div>
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
             About
           </p>
@@ -50,9 +50,10 @@ export default function About() {
             </div>
 
             <p className="about__description text-gray-300 ">
-              I'm a Frontend Developer. I create web pages UI / UX user
-              interfaces. I also have knowledge about many language. To know
-              more about my skills download my resume below.
+              As a Frontend Developer, I specialize in creating captivating web
+              UI/UX interfaces. With extensive knowledge of various
+              technologies, I consistently upskill my skills. Download my resume
+              below to learn more about my expertise.
             </p>
             <div className="flex items-center justify-center sm:justify-start ">
               <a

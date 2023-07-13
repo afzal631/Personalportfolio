@@ -68,10 +68,10 @@ export default function Portfolio() {
             <motion.div
               key={id}
               whileHover={{ scale: 1.1 }}
-              transition={{ duration: 0.2, type: "tween" }}
+              transition={{ duration: 0.4, type: "tween" }}
               whileTap={{ scale: 0.8 }}
               whileInView={{ scale: 1 }}
-              initial={{ scale: 0 }}
+              initial={{ scale: 0.8 }}
             >
               <a href={website} target="#" className=" cursor-pointer">
                 <img

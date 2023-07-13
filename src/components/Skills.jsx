@@ -63,7 +63,7 @@ export default function Skills() {
   return (
     <div
       name="skills"
-      className="bg-gradient-to-b to-black from-gray-800 w-full h-full py-32 text-white md:h-full"
+      className="bg-gradient-to-b from-black to-gray-800 w-full h-full py-32 text-white md:h-full"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-content w-full h-full">
         <div className="pb-8">
@@ -76,11 +76,15 @@ export default function Skills() {
         <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">
           {techs.map(({ id, src, title, style }) => (
             <motion.div
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
+              // initial={{ opacity: 0 }}
+              // whileInView={{ opacity: 1 }}
+              initial={{ scale: 0.8 ,}}
+              whileHover={{ scale: 1.1 }}
+              transition={{ duration: 0.2, type: "tween" }}
+              whileInView={{ scale: 1 }}
               viewport={{ once: true }}
               key={id}
-              className={`shadow-md hover:scale-110 duration-300 py-2 rounded-lg ${style}`}
+              className={`shadow-md  py-2 rounded-lg ${style}`}
             >
               <img src={src} alt="skills" className="w-20 mx-auto" />
               <p className="mt-4">{title}</p>
