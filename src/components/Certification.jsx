@@ -3,8 +3,8 @@
 import { Carousel } from "react-responsive-carousel";
 import img1 from "../assets/cert/50368750.jpg";
 import img2 from "../assets/cert/95692372.jpg";
-import img3 from "../assets/cert/certificate_2023-02-13 100824 +0000.jpg";
-import img4 from "../assets/cert/certificate_2023-06-09 131152 +0000.jpg";
+import img3 from "../assets/cert/123445.jpg";
+import img4 from "../assets/cert/234567890.jpg";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 export default function Example() {
