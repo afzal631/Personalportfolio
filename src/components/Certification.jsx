@@ -52,7 +52,7 @@ export default function Example() {
           >
             {images.map(({ id, src }) => (
               <div key={id}>
-                <img src={src} className="w-full h-auto" />
+                <img src={src} alt="sliderimages" className="w-full h-auto" />
                 {/* <p className="legend">Legend {id}</p> */}
               </div>
             ))}
