@@ -2,8 +2,8 @@ import React from "react";
 import moviedb from "../assets/portfolio/moviedb.png";
 import ecommerce from "../assets/portfolio/ecommerce.png";
 import netflix from "../assets/portfolio/netflix.png";
+import signup from "../assets/portfolio/signup.png";
 // import reactParallax from "../assets/portfolio/reactParallax.jpg";
-// import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
 // import reactWeather from "../assets/portfolio/reactWeather.jpg";
 
 import { motion } from "framer-motion";
@@ -26,6 +26,13 @@ export default function Portfolio() {
     },
     {
       id: 3,
+      src: signup,
+      github: "https://github.com/afzal631/",
+      website: "https://afzal-registerapp.vercel.app/",
+      desc: "Designed and developed a responsive registeration app using React.js, Tailwind CSS, material UI and firebase. UI/UX is developed yet to connect with firebase. ",
+    },
+    {
+      id: 4,
       src: netflix,
       github: "github/",
       desc: "A Netflix video streaming application clone developing using React, Redux and tailwind, Application uses IMBD api for fetching the data using axios, The application is still in development phase.",
