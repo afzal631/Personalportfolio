@@ -29,7 +29,7 @@ export default function Portfolio() {
       src: signup,
       github: "https://github.com/afzal631/",
       website: "https://afzal-registerapp.vercel.app/",
-      desc: "Designed and developed a responsive registeration app using React.js, Tailwind CSS, material UI and firebase. UI/UX is developed yet to connect with firebase. ",
+      desc: "The project is a registration app with sign-in and login functionality, built using React, Tailwind CSS, Material-UI, Firebase, and the Context API. It ensures secure authentication through Firebase. The Context API enables efficient state management for a seamless user experience.",
     },
     {
       id: 4,
@@ -71,7 +71,7 @@ export default function Portfolio() {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, src, desc,website,github }) => (
+          {portfolios.map(({ id, src, desc, website, github }) => (
             <motion.div
               key={id}
               whileHover={{ scale: 1.1 }}
