@@ -1,7 +1,7 @@
 import React from "react";
 import moviedb from "../assets/portfolio/moviedb.png";
 import ecommerce from "../assets/portfolio/ecommerce.png";
-import netflix from "../assets/portfolio/netflix.png";
+import contactApp from "../assets/portfolio/contact-app.png";
 import signup from "../assets/portfolio/signup.png";
 // import reactParallax from "../assets/portfolio/reactParallax.jpg";
 // import reactWeather from "../assets/portfolio/reactWeather.jpg";
@@ -33,10 +33,10 @@ export default function Portfolio() {
     },
     {
       id: 4,
-      src: netflix,
-      github: "github/",
-      desc: "A Netflix video streaming application clone developing using React, Redux and tailwind, Application uses IMBD api for fetching the data using axios, The application is still in development phase.",
-      // website: "https://github.com",
+      src: contactApp,
+      github: "https://github.com/afzal631/Personalportfolio",
+      desc: "Simplify contact management with our MERN stack app. React, Tailwind CSS, MongoDB, and Express.js power a secure, intuitive experience. JWT verification and encrypted passwords ensure data safety. Efficient state management via React's Context API enhances usability. Streamline your contacts effortlessly!.",
+      website: "https://contact-app-frontend-lfgdyexb3-afzal631.vercel.app/",
     },
     // {
     //   id: 4,
