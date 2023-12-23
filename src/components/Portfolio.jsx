@@ -2,7 +2,7 @@ import React from "react";
 import moviedb from "../assets/portfolio/moviedb.png";
 import ecommerce from "../assets/portfolio/ecommerce.png";
 import contactApp from "../assets/portfolio/contact-app.png";
-import signup from "../assets/portfolio/signup.png";
+import new_project from "../assets/portfolio/new_project.png";
 // import reactParallax from "../assets/portfolio/reactParallax.jpg";
 // import reactWeather from "../assets/portfolio/reactWeather.jpg";
 
@@ -26,10 +26,10 @@ export default function Portfolio() {
     },
     {
       id: 3,
-      src: signup,
+      src: new_project,
       github: "https://github.com/afzal631/",
-      website: "https://afzal-registerapp.vercel.app/",
-      desc: "The project is a registration app with sign-in and login functionality, built using React, Tailwind CSS, Material-UI, Firebase, and the Context API. It ensures secure authentication through Firebase. The Context API enables efficient state management for a seamless user experience.",
+      website: "https://blog-app-frontend-nu.vercel.app/",
+      desc: "Crafting a dynamic blog experience using MERN stack. Enjoy seamless sign-in, login, and profile updates with JWT verification. Empowered by MongoDB, Express.js, React, and Node.js, this full-stack app offers effortless CRUD operations on user posts. Elevate your blogging journey with modern technology.",
     },
     {
       id: 4,
